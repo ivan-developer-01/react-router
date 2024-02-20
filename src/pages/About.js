@@ -3,7 +3,7 @@ export default function About() {
 		<>
 			<h3>About</h3>
 
-			<p>I hmm something... This is the test project to test React Router. I built it for the work on Skillfactory final project homework and well I don't care anyway.</p>
+			<p>I hmm something... This is the test project to test React Router. I built it for the work on Skillfactory final project homework.</p>
 		</>
 	);
 }
