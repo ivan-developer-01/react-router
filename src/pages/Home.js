@@ -14,6 +14,9 @@ export default function Home() {
 				<li><Link to="contact">Contact</Link></li>
 				<li><Link to="abracadabra">AbraCadabra</Link></li>
 				<li><Link to="story">Tell me a story!</Link></li>
+				<li><Link to="fun/nonsensePhrases">Nonsense phrases</Link></li>
+				<li><Link to="fun/quotes">Quotes</Link></li>
+				<li><Link to="fun/something">Anything</Link></li>
 			</ul>
 
 			<div className="content">

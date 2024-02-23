@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import AbraCadabra from "./pages/AbraCadabra";
 import Story from "./pages/Story";
+import GiveMeFun from "./pages/GiveMeFun";
 
 class App extends Component {
 	render() {
@@ -15,8 +16,10 @@ class App extends Component {
 						<Route path="/" element={<h1>Home</h1>} />
 						<Route path="about" element={<About />} />
 						<Route path="contact" element={<Contact />} />
-						<Route path="/abracadabra" element={<AbraCadabra />} />
-						<Route path="/story" element={<Story />} />
+						<Route path="abracadabra" element={<AbraCadabra />} />
+						<Route path="story" element={<Story />} />
+						<Route path="fun/:type" element={<GiveMeFun />} />
+						<Route path="*" element={<h1>Not found</h1>} />
 					</Route>
 				</Routes>
 			</BrowserRouter>
